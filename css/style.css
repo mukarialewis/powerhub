@@ -333,7 +333,7 @@ p{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/img/prod/server.png);
+    background-image: url(../img/prod/server.png);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -341,16 +341,16 @@ p{
 }
 
 #services .service-item:nth-child(2){
-    background-image: url(/img/prod/elec.png);
+    background-image: url(../img/prod/elec.png);
     background-position: center;
     background-size: 400px 400px;
 }
 #services .service-item:nth-child(3){
-    background-image: url(/img/prod/bg.jpg);
+    background-image: url(../img/prod/bg.jpg);
     background-position: center;
 }
 #services .service-item:nth-child(4){
-    background-image: url(/img/prod/bulb.jpg);
+    background-image: url(../img/prod/bulb.jpg);
     background-position: center;
 }
 
