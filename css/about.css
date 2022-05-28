@@ -11,7 +11,7 @@ html{
     font-weight: 300;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
-    
+
 }
 /* setup & reusable styling */
 img{
@@ -35,7 +35,7 @@ section{
 }
 .section-title span{
     color: coral;
-} 
+}
 .container{
     max-width: 1320px;
     margin: 0 auto;
@@ -141,7 +141,7 @@ section{
 }
 #header .nav-list .mk .sub.show{
     display: block;
-    
+
 }
 #header .nav-list .mk .sub a{
     letter-spacing: normal;
@@ -226,9 +226,17 @@ section{
   text-align: center;
   background-color: white;
   color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.about-section h1{
+.cont{
+  flex-basis: 93%;
+}
+
+.cont h1{
     padding-bottom: 20px;
     font-size: 2.5rem;
     font-weight: 400;
@@ -236,9 +244,9 @@ section{
     text-transform: capitalize;
 }
 
-.about-section p{
+.cont p{
     font-size: 1.6rem;
-    display: block;
+    text-align: justify;
 }
 
 /* vission-mission */
@@ -246,7 +254,10 @@ section{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
+    margin: 20px;
+    margin-top: 0px;
+  }
+
 .box{
     padding: 1.5rem 2rem;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -260,7 +271,7 @@ section{
     font-size: 1.4rem;
 }
 .box ul{
-    
+
     text-align: 0 50px;
     font-size: 1.2rem;
     margin: 10px;
