@@ -432,6 +432,7 @@ p{
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
+    max-width: 300px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -454,6 +455,7 @@ p{
 #projects .project-image{
     flex-basis: 50%;
     height: 300px;
+    width: 300px;
     overflow: hidden;
     position: relative;
 }
