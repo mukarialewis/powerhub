@@ -626,6 +626,9 @@ p{
     /*end service section*/
 
     /*project*/
+    #projects .project-info{
+        max-width: none;
+    }
     #projects .project-item{
          flex-direction: row;
     }
