@@ -152,6 +152,9 @@ p{
     align-items: center;
     display: none;
 }
+#header .nav-list .mk .sub li{
+    list-style: none;
+}
 #header .nav-list .mk .sub.show{
     display: block;
     
