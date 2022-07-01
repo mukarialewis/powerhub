@@ -283,6 +283,8 @@ section{
     letter-spacing: .1rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
 }
 #footer .social-icon{
     display: flex;
